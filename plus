@@ -1,4 +1,4 @@
-##!/usr/bin/python3
+#!/usr/bin/python3
 import sys
 
 
@@ -11,6 +11,7 @@ def tonum(s):
 
 ans = 0
 for line in sys.stdin:
-        ans += tonum(line)
+    line = line.rstrip()
+    ans += tonum(line)
 
 print(ans)
