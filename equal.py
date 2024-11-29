@@ -11,3 +11,6 @@ print(numbers)
 permutations = list(itertools.permutations(numbers))
 print(permutations)
 
+operators = ['+', '-', '*', '/']
+Four_arithmetic_operations = list(itertools.permutations(operators))
+print(Four_arithmetic_operations)
