@@ -12,9 +12,16 @@ permutations = list(itertools.permutations(numbers))
 print(permutations)
 
 operators = ['+', '-', '*', '/']
-Four_arithmetic_operations = list(itertools.permutations(operators))
-print(Four_arithmetic_operations)
+operator_combinations = list(itertools.permutations(operators))
+print(operator_combinations)
 
-expression = f"{numbers[0]} {Four_arithmetic_operations[0]} {numbers[1]} {Four_arithmetic_operations[1]}{numbers[2]} {Four_arithmetic_operations[2]} {numbers[3]}"
+results = []
 
-print(expression)
+for perm in permutations:
+    for ops in operator_combinations:
+        expression = f"{perm[0]} {ops[0]} {perm[1]} {ops[1]} {perm[2]} {ops[2]} {perm[3]}"
+        results.append(expression)
+
+for eq in results:
+    print(eq)
+
