@@ -14,3 +14,7 @@ print(permutations)
 operators = ['+', '-', '*', '/']
 Four_arithmetic_operations = list(itertools.permutations(operators))
 print(Four_arithmetic_operations)
+
+expression = f"{numbers[0]} {Four_arithmetic_operations[0]} {numbers[1]} {Four_arithmetic_operations[1]}{numbers[2]} {Four_arithmetic_operations[2]} {numbers[3]}"
+
+print(expression)
