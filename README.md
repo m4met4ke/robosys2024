@@ -15,6 +15,7 @@
    ```sh
    git clone https://github.com/m4met4ke/robosys2024.git
 2. 移動:  
+   ```sh
    cd robosys2024
 3. 実行:  
    python3 equal.py <使用する数字４つ>
