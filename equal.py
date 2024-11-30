@@ -33,8 +33,8 @@ else:
     equations = find_equations(numbers) 
 
     if equations:
-        for eq in equations:
-            print(eq)
+        result = "]  [".join(equations)
+        print(f"[ {result} ]")
     else:
         #equationsが空の時
         print("等式は見つかりませんでした")
