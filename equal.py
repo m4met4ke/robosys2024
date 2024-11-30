@@ -27,10 +27,15 @@ def find_equations(numbers):
     return results
 
 if len(numbers) != 4:
-    print("四つの数字を入力")
+    print("エラー: 四つの数字を入力してください")
+    print("例: python3 equal.py 1 2 3 4")
 else:
     equations = find_equations(numbers) 
 
-    for eq in equations:
-        print(eq)
+    if equations:
+        for eq in equations:
+            print(eq)
+    else:
+        #equationsが空の時
+        print("等式は見つかりませんでした")
 
