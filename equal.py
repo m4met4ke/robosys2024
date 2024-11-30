@@ -2,10 +2,10 @@
 # SPDX-FileCopyrightText: 2024 Karen Otake
 # SPDX-License-Identifier: BSD-3-Clause
 import itertools
+import sys
 
 
-keyboard_input = input()
-numbers = list(map(int, keyboard_input.split()))
+numbers = list(map(int, sys.argv[1:]))
 
 def find_equations(numbers):
     permutations = list(itertools.permutations(numbers))
