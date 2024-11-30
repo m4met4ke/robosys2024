@@ -34,7 +34,7 @@ else:
 
     if equations:
         result = "]  [".join(equations)
-        print(f"[ {result} ]")
+        print(f"[{result}]")
     else:
         #equationsが空の時
         print("等式は見つかりませんでした")
