@@ -11,7 +11,7 @@ def find_equations(numbers):
     permutations = list(itertools.permutations(numbers))
 
     operators = ['+', '-', '*', '/']
-    operator_combinations = list(itertools.permutations(operators))
+    operator_combinations = list(itertools.product(operators, repeat=3))
 
     results = []
 
