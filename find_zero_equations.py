@@ -26,9 +26,19 @@ def find_equations(numbers):
     
     return results
 
+if __name__ == "__main__":
+    if not sys.stdin.isatty():
+        # 標準入力
+        input_data = sys.stdin.read().strip()
+    else:
+        # 引数
+        input_data = " ".join(sys.argv[1:])
+    
+    numbers = list(map(int, input_data.split()))
+
 if len(numbers) != 4:
     print("エラー: 四つの数字を入力してください")
-    print("例: python3 equal.py 1 2 3 4")
+    print("例: ./find_zero_equations.py 1 2 3 4")
 else:
     equations = find_equations(numbers) 
 

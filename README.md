@@ -1,6 +1,6 @@
 # robosys2024
 ロボットシステム学授業用
-# equalコマンド
+# find_zero_equationsコマンド
 [![test](https://github.com/m4met4ke/robosys2024/actions/workflows/test.yml/badge.svg)](https://github.com/m4met4ke/robosys2024/actions/workflows/test.yml)
 ## 概要
 標準入力から読み込んだ値４つと演算子３つを基に計算結果がゼロとなる式を作る.  
