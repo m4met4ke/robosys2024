@@ -52,7 +52,8 @@ out=$(echo 1 3 5 | ./find_zero_equations.py)
 [ "$?" = 1 ]      || ng "$LINENO"
 [ "${out}" = "エラー: 四つの数字を入力してください 例: echo 1 2 3 4 | ./find_zero_equations.py 例: ./find_zero_equations.py 1 2 3 4" ] || ng "$LINENO"
 
-out=$(echo 1 2 3 4 5 | ./find_zero_equations.py)                                                                            [ "$?" = 1 ]      || ng "$LINENO"
+out=$(echo 1 2 3 4 5 | ./find_zero_equations.py) 
+[ "$?" = 1 ]      || ng "$LINENO"
 [ "${out}" = "エラー: 四つの数字を入力してください 例: echo 1 2 3 4 | ./find_zero_equations.py 例: ./find_zero_equations.py 1 2 3 4" ] || ng "$LINENO"
 
 # 解なし
