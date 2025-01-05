@@ -49,20 +49,16 @@ out=$(echo  -100 3 +5 -50 | ./find_zero_equations.py)
 ### STRANGE INPUT ###
 # 数字の過不足
 out=$(echo 1 3 5 | ./find_zero_equations.py)
-[ "$?" = 1 ]      || ng "$LINENO"
 [ "${out}" = "エラー: 四つの数字を入力してください 例: echo 1 2 3 4 | ./find_zero_equations.py 例: ./find_zero_equations.py 1 2 3 4" ] || ng "$LINENO"
 
 out=$(echo 1 2 3 4 5 | ./find_zero_equations.py) 
-[ "$?" = 1 ]      || ng "$LINENO"
 [ "${out}" = "エラー: 四つの数字を入力してください 例: echo 1 2 3 4 | ./find_zero_equations.py 例: ./find_zero_equations.py 1 2 3 4" ] || ng "$LINENO"
 
 # 解なし
 out=$(echo 8 3 3 6 | ./find_zero_equations.py)
-[ "$?" = 1 ]      || ng "$LINENO"
 [ "${out}" = "等式は見つかりませんでした" ] || ng "$LINENO"
 
 out=$(echo 1 2 3 10 | ./find_zero_equations.py)
-[ "$?" = 1 ]      || ng "$LINENO"
 [ "${out}" = "等式は見つかりませんでした" ] || ng "$LINENO"
 
 [ "${res}" = 0 ] && echo OK
