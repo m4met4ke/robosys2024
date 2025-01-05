@@ -48,7 +48,6 @@ out=$(echo  -100 3 +5 -50 | ./find_zero_equations.py)
 
 ### STRANGE INPUT ###
 # 数字の過不足
-
 out=$(echo 1 3 5 | ./find_zero_equations.py)
 [ "${out}" = "エラー: 四つの数字を入力してください
 例: echo 1 2 3 4 | ./find_zero_equations.py
