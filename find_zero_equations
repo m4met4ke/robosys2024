@@ -37,7 +37,7 @@ if __name__ == "__main__":
     numbers = list(map(int, input_data.split()))
 
 if len(numbers) != 4:
-    print("エラー: 四つの数字を入力してください")
+    print("四つの数字を入力してください")
     print("例: echo 1 2 3 4 | ./find_zero_equations")
     print("例: ./find_zero_equations 1 2 3 4")
 else:
