@@ -35,16 +35,16 @@ echo 1 3 5 10 | ./find_zero_equations.py
 - © 2024 Karen Otake
 ## 参考資料
 - 書籍
- - 新しいLinuxの教科書 / 三宅英明, 大角祐介著. -- SBクリエイテ イブ，2015.6.
- - Python1年生: 体験してわかる! 会話でまなべる! プログラミングのしくみ / 森巧尚著 -- 第2版. -- 翔泳社， 2022.8. -- (1年生).
+	- 新しいLinuxの教科書 / 三宅英明, 大角祐介著. -- SBクリエイテ イブ，2015.6.
+	- Python1年生: 体験してわかる! 会話でまなべる! プログラミングのしくみ / 森巧尚著 -- 第2版. -- 翔泳社， 2022.8. -- (1年生).
 - ウェブサイト
- - [Python Tips: 標準入力がどのように渡されているのかをチェックしたい](https://www.lifewithpython.com/2017/06/python-check-stdin-type.html)
- - [【Linux】標準入力、標準出力、標準エラーとは？それぞれについて解説](https://engineer-ninaritai.com/linux-stdin-stdout/#i-5)
- - [標準入力・標準出力ってなに?](https://qiita.com/angel_p_57/items/03582181e9f7a69f8168)
- - [Python3のitertoolsモジュールをまとめてみました!](https://qiita.com/edad811/items/0d28e6595a3c338567ec)
- - [［解決！Python］順列や組み合わせを取り出したり、総数を計算したりするには](https://atmarkit.itmedia.co.jp/ait/articles/2112/14/news025.html)
- - [プロンプトエンジニアリングの教科書(特典) > ch4/24-game](https://kujirahand.com/book/prompt/index.php?ch4%2F24-game&show)
- - [GitHub – READMEの作成方法と書き方【改行やリンク・画像の入れ方】](https://howpon.com/8334#i)
- - [式と演算子](https://developer.mozilla.org/ja/docs/Web/JavaScript/Guide/Expressions_and_operators)
- - [組み込み関数](https://docs.python.org/ja/3/library/functions.html)
- - [【Python】def文とは？コード例付きでわかりやすく解説！（初心者向け）](https://torus07.hatenablog.com/entry/python-26)
+	- [Python Tips: 標準入力がどのように渡されているのかをチェックしたい](https://www.lifewithpython.com/2017/06/python-check-stdin-type.html)
+	- [【Linux】標準入力、標準出力、標準エラーとは？それぞれについて解説](https://engineer-ninaritai.com/linux-stdin-stdout/#i-5)
+	- [標準入力・標準出力ってなに?](https://qiita.com/angel_p_57/items/03582181e9f7a69f8168)
+	- [Python3のitertoolsモジュールをまとめてみました!](https://qiita.com/edad811/items/0d28e6595a3c338567ec)
+	- [［解決！Python］順列や組み合わせを取り出したり、総数を計算したりするには](https://atmarkit.itmedia.co.jp/ait/articles/2112/14/news025.html)
+	- [プロンプトエンジニアリングの教科書(特典) > ch4/24-game](https://kujirahand.com/book/prompt/index.php?ch4%2F24-game&show)
+	- [GitHub – READMEの作成方法と書き方【改行やリンク・画像の入れ方】](https://howpon.com/8334#i)
+	- [式と演算子](https://developer.mozilla.org/ja/docs/Web/JavaScript/Guide/Expressions_and_operators)
+	- [組み込み関数](https://docs.python.org/ja/3/library/functions.html)
+	- [【Python】def文とは？コード例付きでわかりやすく解説！（初心者向け）](https://torus07.hatenablog.com/entry/python-26)
