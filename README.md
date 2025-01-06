@@ -15,12 +15,12 @@
    cd robosys2024
 3. 実行:  
    ```sh
-   echo 使用する数字４つ | ./find_zero_equations.py
+   echo 使用する数字４つ | ./find_zero_equations
    ```
    使用する数字に+-を付けることも可能
 ## 実行例  
 ```sh
-echo 1 3 5 10 | ./find_zero_equations.py  
+echo 1 3 5 10 | ./find_zero_equations
 ```
 - 実行結果：[1 - 3 + 10 / 5 = 0]  [1 + 10 / 5 - 3 = 0]  [3 - 1 - 10 / 5 = 0]  [3 - 10 / 5 - 1 = 0]  [10 / 5 + 1 - 3 = 0]  [10 / 5 - 3 + 1 = 0]
 ## 必要なソフトウェア
