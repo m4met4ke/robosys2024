@@ -28,7 +28,6 @@ echo 1 3 5 10 | ./find_zero_equations.py
 - Ubuntu-latest\ubuntu-22.04.5LTS
 ## LICENSE
 - このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます.
-- このパッケージは，3条項BSDライセンスの下，ryuichiueda/emcl由来のコード（© 2024 Ryuichi Ueda）を利用しています．
 - このパッケージのfind_zero_equations，test.bash以外のコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
     - https://github.com/ryuichiueda/slides_marp/tree/master/robosys2024
 - © 2024 Karen Otake
